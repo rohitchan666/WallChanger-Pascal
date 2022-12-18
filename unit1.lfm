@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 306
+  Height = 240
+  Top = 269
+  Width = 320
+  Caption = 'Wallpaper Changer Pascal'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Button1: TButton
+    Left = 112
+    Height = 32
+    Top = 104
+    Width = 104
+    Caption = 'Change'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 48
+    Height = 23
+    Top = 48
+    Width = 222
+    TabOrder = 1
+    Text = 'c:\1.jpg'
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 24
+    Width = 97
+    Caption = 'Wallpaper Image:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
